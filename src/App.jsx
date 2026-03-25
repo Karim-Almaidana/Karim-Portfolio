@@ -11,6 +11,7 @@ function App() {
       <Hero />
       {/* about */}
       <About />
+      <section className="min-h-screen"></section>
       {/* experience */}
       {/* testimonial */}
       {/* contact */}
