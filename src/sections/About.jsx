@@ -7,7 +7,7 @@ import { Frameworks } from "../components/FrameWorks";
 const About = () => {
   const grid2Container = useRef();
   return (
-    <section className="c-space section-spacing" id="about">
+    <section className="c-space section-spacing scroll-mt-[60px]" id="about">
       <h2 className="text-heading">About Me</h2>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-6 md:auto-rows-[18rem] mt-12">
         {/* Grid 1 */}
@@ -31,7 +31,7 @@ const About = () => {
             ref={grid2Container}
             className="flex items-center justify-center w-full h-full"
           >
-            <p className="flex items-end text-5xl text-gray-500">
+            <p className="flex items-end text-3xl text-gray-500 md:text-4xl lg:text-5xl">
               CODE IS CRAFT
             </p>
             <Card

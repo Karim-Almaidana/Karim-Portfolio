@@ -30,6 +30,7 @@ const Hero = () => {
           </Suspense>
         </Canvas>
       </figure>
+      <div className="absolute left-0 bottom-[-10px] h-20 w-full bg-gradient-to-b from-transparent to-[#030412]" />
     </div>
   );
 };
