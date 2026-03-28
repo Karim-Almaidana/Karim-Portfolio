@@ -19,7 +19,7 @@ const Footer = () => {
           </a>
         ))}
       </div>
-      <p>© 2026 Karim. All rights reserved</p>
+      <p>© 2026 MaidanaKarim. All rights reserved</p>
     </section>
   );
 };

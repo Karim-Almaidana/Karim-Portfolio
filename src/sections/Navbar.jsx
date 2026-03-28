@@ -38,7 +38,7 @@ const Navbar = () => {
             className="text-xl font-bold transition-colors text-neutral-400 hover:text-white"
             href="/"
           >
-            Karim
+            MKode
           </a>
           <button
             onClick={() => setIsOpen(!isOpen)}
